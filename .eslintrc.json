@@ -1,0 +1,10 @@
+{
+    "extends":"eslint-config-standard-with-typescript",
+    "parserOptions": {
+        "project":"./tsconfig.json"
+    },
+    "rules":{
+        "@typescript-eslint/no-type-alias": "off"
+    },
+    "ignorePatterns":["dist", "src/**/*.js"]
+}
